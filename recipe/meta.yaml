@@ -1,5 +1,5 @@
 {% set name = "pytest_parallel_mpi" %}
-{% set version = "1.0" %}
+{% set version = "1.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/onera/pytest_parallel/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 666ecb0d4fbdfe07b25dca538e0dd105caf7cb49c52f51cf459531b4a37801f2
+  sha256: e467cb113916d67324adfacadeb95cc95ab694d5c004d806f4c7912039642dbf
 
 build:
   number: 0
